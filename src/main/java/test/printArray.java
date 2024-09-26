@@ -29,7 +29,7 @@ public class printArray {
         System.out.println("Elements of the array:");
         for (int num : array) {
             System.out.print(num + " ");
-        }
+       }
         
         scanner.close();
     }

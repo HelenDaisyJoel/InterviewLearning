@@ -19,7 +19,7 @@ public class testDemo {
     }
 
     public static void main(String[] args) {
-        String str = "abcabcbb";
+        String str = "abcabcbbswert";
         System.out.println("Length of longest substring without repeating characters: " + lengthOfLongestSubstring(str));
     }
 }
