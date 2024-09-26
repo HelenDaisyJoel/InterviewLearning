@@ -28,5 +28,6 @@ public class DuplicateWordFinder {
 
         // Displaying duplicate words
         System.out.println("Duplicate words: " + set1);
+        
     }
 }
