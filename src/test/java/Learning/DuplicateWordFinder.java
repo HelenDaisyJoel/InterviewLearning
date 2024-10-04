@@ -22,7 +22,8 @@ public class DuplicateWordFinder {
         for (String word : str2.split(" ")) {
             set2.add(word);
         }
-
+        System.out.println("Duplicate words: " + set1);
+        System.out.println("Duplicate words: " + set2);
         // Finding duplicates
         set1.retainAll(set2);
 

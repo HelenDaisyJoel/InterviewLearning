@@ -20,11 +20,11 @@ public class StringOccurrence {
         str = str.toLowerCase();
 
         // Iterate through each character in the string
-        for (char c : str.toCharArray()) {
+        for (char item : str.toCharArray()) {
             // Ignore spaces
-            if (c != ' ') {
+            if (item != ' ') {
                 // Update the count of the character
-                charCountMap.put(c, charCountMap.getOrDefault(c, 0) + 1);
+                charCountMap.put(item, charCountMap.getOrDefault(item, 0) + 1);
             }
         }
 

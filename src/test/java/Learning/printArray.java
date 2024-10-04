@@ -13,14 +13,6 @@ public class printArray {
         	System.out.println(ch);
         	
         }
-        
-        
-        
-        
-        
-        
-        
-        
 	}
 
 }

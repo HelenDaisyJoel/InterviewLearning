@@ -18,13 +18,10 @@ public class printArray {
         for (int i = 0; i < size; i++) {
             array[i] = scanner.nextInt();
         }
-        
-        
-        
-        int[] array1= {10,20,30,40,50};
-        for (int numb:array1) {
-        	System.out.println(numb+ "");
-        }
+//        int[] array1= {10,20,30,40,50};
+//        for (int numb:array1) {
+//        	System.out.println(numb+ "");
+//        }
         // Print the elements of the array
         System.out.println("Elements of the array:");
         for (int num : array) {

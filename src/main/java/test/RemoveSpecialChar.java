@@ -3,8 +3,8 @@ package test;
 public class RemoveSpecialChar {
 
 	public static void main(String[] args) {
-		String str="@#J*&a$%#va^%$Lear*&%n$#ing-20";
-		String plainString=str.replaceAll("[^A-Za-z0-9]", "  ");
+		String str="@#J*&a$%#va^%$Lear*&%n$#ing-20 23";
+		String plainString=str.replaceAll("[^A-Za-z0-9\\s]", "");
 		System.out.println(plainString);
 		
 		String trimmedString=plainString.trim(); //Remove spaces between front and end of the string

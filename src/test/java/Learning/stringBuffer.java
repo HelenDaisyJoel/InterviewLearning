@@ -7,10 +7,11 @@ public class stringBuffer {
 //		StringBuffer sb=new StringBuffer(name);
 		StringBuilder sb=new StringBuilder(name);
 		sb.append("Welcome");
-		name.concat("welcome");
+		String name1=name.concat("welcome");
 		System.out.println(name);
 		System.out.println(sb);
 		System.out.println(name);
+		System.out.println(name1);
 	}
 
 }

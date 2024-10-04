@@ -10,9 +10,9 @@ public class RemoveStringOccurrences {
         // Adding strings to the HashSet
         stringSet.add("Java is the Programming language");
         stringSet.add("I know Java to script coding");
-//        stringSet.add("Orange");
-//        stringSet.add("Mango");
-//        stringSet.add("Grapes");
+        stringSet.add("Orange");
+        stringSet.add("Mango");
+        stringSet.add("Grapes");
 
         // Displaying the original HashSet
         System.out.println("Original HashSet: " + stringSet);

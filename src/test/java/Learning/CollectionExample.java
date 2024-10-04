@@ -13,7 +13,7 @@ public class CollectionExample {
         phoneBook.put("Alice", "123-456-7890");
         phoneBook.put("Bob", "234-567-8901");
         phoneBook.put("Charlie", "345-678-9012");
-
+        phoneBook.put("Charlie", "345-678-9012");// Duplicate, will not be added
         // Retrieving a phone number
         String bobNumber = phoneBook.get("Bob");
         System.out.println("Bob's phone number: " + bobNumber);

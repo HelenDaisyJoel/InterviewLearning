@@ -17,12 +17,10 @@ public class sortArray {
 				
 				array[i] = scanner.nextInt();
 			}
-				
-			
 			// Sorting the array using Bubble Sort
 			int temp;
-			for (int i = 0; i < array.length; i++) {
-			    for (int j = i + 1; j < array.length; j++) {
+			for (int i = 0; i < size; i++) {
+			    for (int j = i + 1; j < size; j++) {
 			        if (array[i] > array[j]) {  // Swap if the current element is greater than the next element
 			            temp = array[i];
 			            array[i] = array[j];

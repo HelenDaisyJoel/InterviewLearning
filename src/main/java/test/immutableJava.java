@@ -12,6 +12,7 @@ public class immutableJava {
 		
 		StringBuilder sb = new StringBuilder("Hello");
 		sb.append(" World"); // Modifies the existing StringBuilder object
+		System.out.println("Answer is:"+sb);
 		String result = sb.toString(); // Converts back to String
 		System.out.println(result);
 		
