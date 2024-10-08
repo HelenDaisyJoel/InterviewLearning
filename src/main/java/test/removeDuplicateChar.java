@@ -54,7 +54,7 @@ public class removeDuplicateChar {
 				if(!repeated) {
 					sb2.append(array[i]);
 				}
-			}
+			}System.out.println(sb2);
 			
 		}
 	}
