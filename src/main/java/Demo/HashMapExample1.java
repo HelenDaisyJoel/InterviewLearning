@@ -12,12 +12,13 @@ public class HashMapExample1 {
         students.put(1, "Alice");
         students.put(2, "Bob");
         students.put(3, "Charlie");
+        students.put(3, "Charlie1");
 
         // Accessing an element by key
         System.out.println("Student with ID 2: " + students.get(2));
 
         // Removing an element by key
-        students.remove(3);
+//        students.remove(3);
 
         // Iterating through the map
         System.out.println("All students:");

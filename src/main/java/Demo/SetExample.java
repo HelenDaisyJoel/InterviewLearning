@@ -1,17 +1,20 @@
 package Demo;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
 
-public class ArrayListExample {
-    public static void main(String[] args) {
-        ArrayList<String> fruits = new ArrayList<>();
+public class SetExample {
+
+	public static void main(String[] args) {
+		HashSet<String> fruits = new HashSet<>();
         
         // Add elements
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Cherry");
         fruits.add("Cherry");
-        fruits.add("Cherry");//Allows duplicate
+        fruits.add("Cherry");//Doesn't allows duplicate
         
         // Print elements
         System.out.println("Fruits: " + fruits);
@@ -22,10 +25,15 @@ public class ArrayListExample {
         System.out.println("After removal: " + fruits);
         System.out.println("Contains Banana: " + fruits.contains("Banana"));
         
-        // Iterate through the list
+        // Iterate through the list-Approach1
         for (String fruit : fruits) {
-            System.out.println(fruit);
+            System.out.println("Approach 1 is:"+fruit);
         }
-    }
-}
+//        Approach 2
+        Iterator<String> it=fruits.iterator();
+        while(it.hasNext()) {
+        	System.out.println("Approach 2 is:"+it.next());
+        }
+        }
 
+}
